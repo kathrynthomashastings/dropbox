@@ -2,21 +2,21 @@
 
 The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Time spent: `<Number of hours spent>`
+Time spent: `08`
 
 ### Features
 
 #### Required
 
-- [ ] User can tap through the 3 welcome screens.
-- [ ] User can follow the create user flow.
-  - [ ] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
-  - [ ] Before creating the account, user can choose to read the terms of service.
-  - [ ] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
-  - [ ] User can log out from the Settings screen.
-- [ ] User can follow the sign in flow.
-  - [ ] User can tap the area for "Having trouble signing in?".
-  - [ ] User can log out from the Settings screen.
+- [x] User can tap through the 3 welcome screens.
+- [x] User can follow the create user flow.
+  - [x] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
+  - [x] Before creating the account, user can choose to read the terms of service.
+  - [x] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+  - [x] User can log out from the Settings screen.
+- [x] User can follow the sign in flow.
+  - [x] User can tap the area for "Having trouble signing in?".
+  - [x] User can log out from the Settings screen.
 
 #### Optional
 
@@ -34,8 +34,8 @@ Time spent: `<Number of hours spent>`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Scrolling of photos, and tapping to enlarge one.
+2. Viewing the contents of the “Friday” directory.
 
 ### Video Walkthrough 
 
@@ -49,4 +49,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* Any libraries or borrowed content.
+* In the midst of a challenging launch of our new line of business homepage that I am actively a part of; ate into my evening hours (i.e. work time) for a number of days.
+* Went to the Olympic Peninsula this weekend and downloaded all of the files in case of (very probable) sketchy internet access. Ended up I didn’t have Xcode on my home computer. Took hours to download and wasted work time.
+* Tab controller was being strange and placing large blue boxes atop my controls. Ended up working around by pulling working view controllers from my Facebook file.
+* Lots of Xcode bugs; had to restart quite a few times.
+* Had trouble with scrollView, only to learn that I was trying to use OS X scroll in the Simulator, and (as Tim put it), I should “try not to think about the fact that it’s probably been working this whole time”.
+* “Whole time” = 02 hours because I accidentally wandered down a rabbit hole of trying to solve the issue, when I should’ve gotten on Slack after 30 minutes.
